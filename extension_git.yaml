@@ -1,0 +1,17 @@
+registry:
+  registry_name: "etcd"
+
+  registry_imports:
+    github.com/kitex-contrib/registry-etcd : ""
+
+  registry_body: "
+  return nil
+  "
+
+  registry_docker: "
+    hahha
+    "
+
+  registry_address:
+    - 127.0.0.1:2379
+    - 127.0.0.1:2380
